@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "name": "Leitor Admin",
+      "email": "qwViKgHS@admin.com",
+      "password": "$2b$10$UvL4a.Nz.f8o2QqfUI9g3OgOm3etUdDutdr4P56Fzh3EO6r6I.ie6",
+      "role": "1"
+    },
+    {
+      "name": "Tester User",
+      "email": "tester@email.com",
+      "password": "$2b$10$jW9goIjKR9ZcXKVdwrR/QuyV0TIboqGKxCl6Va55E0ula5wR2zuEC",
+      "role": "0"
+    }
+  ],
+  "systemConfig": [
+    {
+      "search_id": "jeMbjqLSOEfcSg",
+      "id": "CHAVE_USUARIO_APP_ML",
+      "desc": "Chave de usuário Mercado Livre (exp 6 meses) - Login",
+      "group": 1,
+      "value": ""
+    },
+    {
+      "search_id": "WmJOnJFZqtzinW",
+      "id": "ACCESS_TOKEN_APP_ML",
+      "desc": "Token de acesso API Mercado Livre (exp 6 horas) - Login e/ou Refresh",
+      "group": 1,
+      "value": ""
+    },
+    {
+      "search_id": "ViZbKJkqabEFtm",
+      "id": "REDIRECT_URI_APP_ML",
+      "desc": "URL de redirecionamento para autenticar com aplicação Mercado Livre.",
+      "group": 1,
+      "value": ""
+    }
+  ]
+}
